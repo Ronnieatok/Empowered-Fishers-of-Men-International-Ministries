@@ -66,9 +66,9 @@ describe("PartnerWithUs", () => {
     const user = userEvent.setup();
     render(<PartnerWithUs />);
 
-    await user.type(screen.getByLabelText(/organization name/i), "Grace Community Church");
-    await user.type(screen.getByLabelText(/contact person/i), "John Doe");
-    await user.type(screen.getByLabelText(/^email$/i), "john@gracechurch.org");
+    await user.type(screen.getByLabelText(/organization name/i), "");
+    await user.type(screen.getByLabelText(/contact person/i), "");
+    await user.type(screen.getByLabelText(/^email$/i), "");
     await user.type(
       screen.getByLabelText(/tell us about the partnership/i),
       "We'd like to co-fund a borehole project."
