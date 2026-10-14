@@ -93,7 +93,7 @@ export default function Footer() {
             Contact
           </h3>
           <address className="mt-4 space-y-2 text-sm not-italic text-offwhite/70">
-            <p>Nairobi, Kenya</p>
+            <p>Lodwar, Kenya</p>
             <p>
               <a href={`mailto:${SITE_EMAIL}`} className="hover:text-gold-400">
                 {SITE_EMAIL}
