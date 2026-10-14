@@ -172,7 +172,7 @@ export default function PartnerWithUs() {
                   aria-invalid={!!errors.organization}
                   aria-describedby={errors.organization ? "organization-error" : undefined}
                   className="mt-1.5 w-full rounded-md border border-charcoal-700 bg-charcoal-900 px-4 py-2.5 text-offwhite placeholder:text-offwhite/40 focus:border-gold-500"
-                  placeholder="Grace Community Church"
+                  placeholder=""
                 />
                 {errors.organization && (
                   <p id="organization-error" className="mt-1.5 text-sm text-red-400">
@@ -194,7 +194,7 @@ export default function PartnerWithUs() {
                   aria-invalid={!!errors.contactName}
                   aria-describedby={errors.contactName ? "contactName-error" : undefined}
                   className="mt-1.5 w-full rounded-md border border-charcoal-700 bg-charcoal-900 px-4 py-2.5 text-offwhite placeholder:text-offwhite/40 focus:border-gold-500"
-                  placeholder="Full name"
+                  placeholder=""
                 />
                 {errors.contactName && (
                   <p id="contactName-error" className="mt-1.5 text-sm text-red-400">
@@ -216,7 +216,7 @@ export default function PartnerWithUs() {
                   aria-invalid={!!errors.email}
                   aria-describedby={errors.email ? "partner-email-error" : undefined}
                   className="mt-1.5 w-full rounded-md border border-charcoal-700 bg-charcoal-900 px-4 py-2.5 text-offwhite placeholder:text-offwhite/40 focus:border-gold-500"
-                  placeholder="you@organization.org"
+                  placeholder=""
                 />
                 {errors.email && (
                   <p id="partner-email-error" className="mt-1.5 text-sm text-red-400">
@@ -238,7 +238,7 @@ export default function PartnerWithUs() {
                   aria-invalid={!!errors.message}
                   aria-describedby={errors.message ? "message-error" : undefined}
                   className="mt-1.5 w-full rounded-md border border-charcoal-700 bg-charcoal-900 px-4 py-2.5 text-offwhite placeholder:text-offwhite/40 focus:border-gold-500"
-                  placeholder="A little about your organization and what partnership could look like..."
+                  placeholder=""
                 />
                 {errors.message && (
                   <p id="message-error" className="mt-1.5 text-sm text-red-400">
