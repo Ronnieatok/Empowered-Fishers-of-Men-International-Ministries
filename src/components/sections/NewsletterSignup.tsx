@@ -92,7 +92,7 @@ export default function NewsletterSignup() {
                 aria-invalid={!!error}
                 aria-describedby={error ? "newsletter-email-error" : undefined}
                 className="w-full min-h-11 rounded-md border border-charcoal-700 bg-charcoal-800 px-4 py-2.5 text-offwhite placeholder:text-offwhite/40 focus:border-gold-500"
-                placeholder="you@example.com"
+                placeholder=""
               />
               {error && (
                 <p id="newsletter-email-error" className="mt-1.5 text-sm text-red-400">
