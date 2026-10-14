@@ -67,7 +67,7 @@ export default function HeroSection() {
             href="#donate"
             className="inline-flex items-center justify-center rounded-md bg-gold-500 px-8 py-4 text-base font-semibold text-charcoal-950 shadow-gold transition-colors duration-200 hover:bg-gold-400 focus-visible:bg-gold-400"
           >
-            Donate Now
+            Bless Us in Christ Jesus
           </a>
           <a
             href="#membership"
