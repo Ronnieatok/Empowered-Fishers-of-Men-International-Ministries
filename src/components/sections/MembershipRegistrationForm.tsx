@@ -154,7 +154,7 @@ export default function MembershipRegistrationForm() {
               aria-invalid={!!errors.fullName}
               aria-describedby={errors.fullName ? "fullName-error" : undefined}
               className="mt-1.5 w-full rounded-md border border-charcoal-700 bg-charcoal-900 px-4 py-2.5 text-offwhite placeholder:text-offwhite/40 focus:border-gold-500"
-              placeholder="Samwel Kaaleng"
+              placeholder=""
             />
             {errors.fullName && (
               <p id="fullName-error" className="mt-1.5 text-sm text-red-400">
@@ -176,7 +176,7 @@ export default function MembershipRegistrationForm() {
               aria-invalid={!!errors.address}
               aria-describedby={errors.address ? "address-error" : undefined}
               className="mt-1.5 w-full rounded-md border border-charcoal-700 bg-charcoal-900 px-4 py-2.5 text-offwhite placeholder:text-offwhite/40 focus:border-gold-500"
-              placeholder="P.O. Box, Town, County"
+              placeholder=""
             />
             {errors.address && (
               <p id="address-error" className="mt-1.5 text-sm text-red-400">
@@ -199,7 +199,7 @@ export default function MembershipRegistrationForm() {
                 aria-invalid={!!errors.phone}
                 aria-describedby={errors.phone ? "m-phone-error" : undefined}
                 className="mt-1.5 w-full rounded-md border border-charcoal-700 bg-charcoal-900 px-4 py-2.5 text-offwhite placeholder:text-offwhite/40 focus:border-gold-500"
-                placeholder="07XX XXX XXX"
+                placeholder=""
               />
               {errors.phone && (
                 <p id="m-phone-error" className="mt-1.5 text-sm text-red-400">
@@ -221,7 +221,7 @@ export default function MembershipRegistrationForm() {
                 aria-invalid={!!errors.email}
                 aria-describedby={errors.email ? "m-email-error" : undefined}
                 className="mt-1.5 w-full rounded-md border border-charcoal-700 bg-charcoal-900 px-4 py-2.5 text-offwhite placeholder:text-offwhite/40 focus:border-gold-500"
-                placeholder="jane@example.com"
+                placeholder=""
               />
               {errors.email && (
                 <p id="m-email-error" className="mt-1.5 text-sm text-red-400">
