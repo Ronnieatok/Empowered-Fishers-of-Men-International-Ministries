@@ -16,7 +16,7 @@
 export const SITE_EMAIL = "fishersofmen026@gmail.com";
 
 /** Human-readable, for display text. */
-export const PHONE_DISPLAY = "+254 791 918 955";
+export const PHONE_DISPLAY = "+254791918955";
 
 /** E.164 format with leading +, for tel: links. */
 export const PHONE_E164 = "+254791918955";
