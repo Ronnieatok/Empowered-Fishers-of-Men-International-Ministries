@@ -24,4 +24,4 @@ export const PHONE_E164 = "+254791918955";
 /** Same number, digits only (no leading +), the format wa.me expects. */
 export const WHATSAPP_NUMBER = "254791918955";
 
-export const WHATSAPP_PREFILL_MESSAGE = "Hello Empowered Fishers of Men International Ministries, I'd like to get in touch.";
+export const WHATSAPP_PREFILL_MESSAGE = "Good day Pastor Simon Kaaleng. I'm [Your Name], and I'm very interested in joining Empowered Fishers of Men International Ministries. I'd love to get in touch — could you kindly advise the best way to reach you? Thank you.";
