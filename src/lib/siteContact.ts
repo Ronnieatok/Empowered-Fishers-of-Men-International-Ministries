@@ -13,15 +13,15 @@
  * into two separate values.
  */
 
-export const SITE_EMAIL = "Ronnieatok@gmail.com";
+export const SITE_EMAIL = "fishersofmen026@gmail.com";
 
 /** Human-readable, for display text. */
-export const PHONE_DISPLAY = "+254 705 902 590";
+export const PHONE_DISPLAY = "+254 791 918 955";
 
 /** E.164 format with leading +, for tel: links. */
-export const PHONE_E164 = "+254705902590";
+export const PHONE_E164 = "+254791918955";
 
 /** Same number, digits only (no leading +), the format wa.me expects. */
-export const WHATSAPP_NUMBER = "254705902590";
+export const WHATSAPP_NUMBER = "254791918955";
 
-export const WHATSAPP_PREFILL_MESSAGE = "Hello EFMI, I'd like to get in touch.";
+export const WHATSAPP_PREFILL_MESSAGE = "Hello Empowered Fishers of Men International Ministries, I'd like to get in touch.";
